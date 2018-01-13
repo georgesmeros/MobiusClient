@@ -28,7 +28,7 @@ mobiusClient.getBalance(app_uid, email) { (balance, error) in
 }
 
 // Use
-client.useCredit(app_uid: app_uid, email: email, numCredits: credits) { (balance, error) in
+mobiusClient.useCredit(app_uid: app_uid, email: email, numCredits: credits) { (balance, error) in
     if let error = error {
        //Response with error message
        print(error)
