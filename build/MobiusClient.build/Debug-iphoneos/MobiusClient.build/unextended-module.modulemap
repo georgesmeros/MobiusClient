@@ -1,0 +1,10 @@
+framework module MobiusClient {
+  umbrella header "MobiusClient.h"
+
+  export *
+  module * { export * }
+}
+
+module MobiusClient.__Swift {
+    exclude header "MobiusClient-Swift.h"
+}

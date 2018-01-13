@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/macbook/Library/Developer/Xcode/DerivedData/MobiusClient-erxliuyxnxtgffegyvgtabpfmqcz/Build/Products/Debug-iphoneos/MobiusClient.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/macbook/mobiusclient/build/MobiusClient.build/Debug-iphoneos/MobiusClient.build/unextended-module.modulemap',
+    }]
+  }]
+}

@@ -1,0 +1,15 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "ae207ed21a7735685e736de5497894bb"
+build_time: [1515813359, 423133000]
+inputs:
+  "/Users/macbook/mobiusclient/MobiusClient/Sources/Utils/HTTPParameter.swift": [1515784145, 0]
+  "/Users/macbook/mobiusclient/MobiusClient/Sources/Models/MobiusBalance.swift": [1515810890, 0]
+  "/Users/macbook/mobiusclient/MobiusClient/Sources/Utils/URLQueryEncoder.swift": [1506054536, 0]
+  "/Users/macbook/mobiusclient/MobiusClient/Sources/Requests/UseCredits.swift": [1515811734, 0]
+  "/Users/macbook/mobiusclient/MobiusClient/Sources/MobiusAPIClient.swift": [1515813348, 0]
+  "/Users/macbook/mobiusclient/MobiusClient/Sources/Utils/Result.swift": [1506054536, 0]
+  "/Users/macbook/mobiusclient/MobiusClient/Sources/Models/MobiusError.swift": [1515784056, 0]
+  "/Users/macbook/mobiusclient/MobiusClient/Sources/Models/MobiusDataFeed.swift": [1515811691, 0]
+  "/Users/macbook/mobiusclient/MobiusClient/Sources/Requests/GetBalance.swift": [1515811400, 0]
+  "/Users/macbook/mobiusclient/MobiusClient/Sources/Utils/md5.swift": [1506054536, 0]
+  "/Users/macbook/mobiusclient/MobiusClient/Sources/Models/APIRequest.swift": [1515781214, 0]

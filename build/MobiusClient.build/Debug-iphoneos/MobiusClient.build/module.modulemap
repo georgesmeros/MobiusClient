@@ -1,0 +1,11 @@
+framework module MobiusClient {
+  umbrella header "MobiusClient.h"
+
+  export *
+  module * { export * }
+}
+
+module MobiusClient.Swift {
+    header "MobiusClient-Swift.h"
+    requires objc
+}
