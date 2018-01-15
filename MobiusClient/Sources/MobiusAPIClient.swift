@@ -110,6 +110,36 @@ public class MobiusAPIClient {
         task.resume()
     }
     
+    public func registerToken(token_type: TokenType?, name: String? = nil, symbol: String? = nil, issuer: String? = nil, _ completion: @escaping (_ balance: MobiusToken?,_ errorMessage: String?,_ statusCode: Int?) -> Void) {
+        
+        let request = RegisterToken.init(token_type: token_type, name: name, symbol: symbol, issuer: issuer)
+        let endpoint = self.endpoint(for: request)
+        var urlRequest = URLRequest(url: endpoint)
+        urlRequest.httpMethod = "POST"
+        let task = session.dataTask(with: urlRequest) { data, response, error in
+            if let httpResponse = response as? HTTPURLResponse {
+                let status = httpResponse.statusCode
+                if let data = data, status == 200 {
+                    do {
+                        
+                        guard let json = try JSONSerialization.jsonObject(with: data, options: [])
+                            as? [String: Any] else {
+                                completion(nil, "decoding error", status)
+                                return
+                        }
+                        completion(MobiusToken.fromJSON(json: json), nil, status)
+                    } catch {
+                        completion(nil, "decoding error", status)
+                    }
+                } else {
+                    let error = MobiusError(rawValue: status) ?? MobiusError.Generic
+                    completion(nil, error.getMessage(), status)
+                }
+            }
+        }
+        task.resume()
+    }
+    
     public func useCredit(app_uid: String, email: String, num_credits: Double, completion: @escaping (_ newBalance: MobiusBalance?, _ errorMessage: String?,_ statusCode: Int?) -> Void) {
         let request = UseCredits.init(app_uid: app_uid, email: email, num_credits: num_credits)
         
