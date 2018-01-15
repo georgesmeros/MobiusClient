@@ -122,6 +122,7 @@ depends-member:
 - !private ["12MobiusClient0A9APIClientC", "endpoint"]
 - !private ["12MobiusClient0A9APIClientC", "fatalError"]
 - ["12MobiusClient0A9APIClientC", "getBalance"]
+- ["12MobiusClient0A9APIClientC", "getDataFeed"]
 - ["12MobiusClient0A9APIClientC", "init"]
 - !private ["12MobiusClient0A9APIClientC", "session"]
 - ["12MobiusClient0A9APIClientC", "useCredit"]
@@ -286,6 +287,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-- "/Users/macbook/mobiusclient/MobiusClient/MobiusClient.h"
-- "/Users/macbook/mobiusclient/build/MobiusClient.build/Debug-iphoneos/MobiusClient.build/unextended-module.modulemap"
-interface-hash: "f3e62124f793506a38a9ae3911d0b1a7"
+- "/Users/hare/Mobius/MobiusClient/MobiusClient.h"
+- "/Users/hare/Mobius/build/MobiusClient.build/Debug-iphoneos/MobiusClient.build/unextended-module.modulemap"
+interface-hash: "11c54bdb80676a9c0fa8ae8108e7d48e"

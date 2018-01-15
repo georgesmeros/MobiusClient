@@ -34,6 +34,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/macbook/mobiusclient/MobiusClient/MobiusClient.h"
-- "/Users/macbook/mobiusclient/build/MobiusClient.build/Debug-iphonesimulator/MobiusClient.build/unextended-module.modulemap"
+- "/Users/hare/Mobius/MobiusClient/MobiusClient.h"
+- "/Users/hare/Mobius/build/MobiusClient.build/Debug-iphonesimulator/MobiusClient.build/unextended-module.modulemap"
 interface-hash: "a86eaf1a7a5468408c8634dfef8f2e7f"

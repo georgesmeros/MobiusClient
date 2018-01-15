@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/macbook/Library/Developer/Xcode/DerivedData/MobiusClient-erxliuyxnxtgffegyvgtabpfmqcz/Build/Products/Debug-iphonesimulator/MobiusClient.framework/Modules'
+    'name': '/Users/hare/Library/Developer/Xcode/DerivedData/MobiusClient-dfxkrhuczlpeiidsdyfkplhjtwmd/Build/Products/Debug-iphonesimulator/MobiusClient.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/macbook/mobiusclient/build/MobiusClient.build/Debug-iphonesimulator/MobiusClient.build/unextended-module.modulemap',
+      'external-contents': '/Users/hare/Mobius/build/MobiusClient.build/Debug-iphonesimulator/MobiusClient.build/unextended-module.modulemap',
     }]
   }]
 }

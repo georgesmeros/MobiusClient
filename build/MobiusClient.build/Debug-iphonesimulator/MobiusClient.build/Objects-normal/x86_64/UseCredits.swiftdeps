@@ -21,7 +21,7 @@ depends-member:
 - !private ["12MobiusClient10APIRequestP", "app_uid"]
 - !private ["12MobiusClient10APIRequestP", "email"]
 - ["12MobiusClient10APIRequestP", "encode"]
-- !private ["12MobiusClient10APIRequestP", "numCredits"]
+- !private ["12MobiusClient10APIRequestP", "num_credits"]
 - ["12MobiusClient10APIRequestP", "resourceName"]
 - ["12MobiusClient10APIRequestP", ""]
 - !private ["s23BidirectionalCollectionP", "init"]
@@ -56,7 +56,7 @@ depends-member:
 - ["s9EncodableP", "encode"]
 - !private ["s9EncodableP", "hashValue"]
 - !private ["s9EncodableP", "init"]
-- !private ["s9EncodableP", "numCredits"]
+- !private ["s9EncodableP", "num_credits"]
 - ["s9EncodableP", "resourceName"]
 - ["s9EncodableP", ""]
 - !private ["s7EncoderP", "container"]
@@ -115,7 +115,7 @@ depends-member:
 - !private ["12MobiusClient10UseCreditsV", "email"]
 - ["12MobiusClient10UseCreditsV", "encode"]
 - ["12MobiusClient10UseCreditsV", "init"]
-- !private ["12MobiusClient10UseCreditsV", "numCredits"]
+- !private ["12MobiusClient10UseCreditsV", "num_credits"]
 - ["12MobiusClient10UseCreditsV", "resourceName"]
 - !private ["s23_BidirectionalIndexableP", "init"]
 - !private ["s18_BitwiseOperationsP", "hashValue"]
@@ -216,6 +216,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/macbook/mobiusclient/MobiusClient/MobiusClient.h"
-- "/Users/macbook/mobiusclient/build/MobiusClient.build/Debug-iphonesimulator/MobiusClient.build/unextended-module.modulemap"
-interface-hash: "18f93b3b4dca9e1b98d1fc796a8e3cde"
+- "/Users/hare/Mobius/MobiusClient/MobiusClient.h"
+- "/Users/hare/Mobius/build/MobiusClient.build/Debug-iphonesimulator/MobiusClient.build/unextended-module.modulemap"
+interface-hash: "83a9a772d0758e657cc0c1906e0914c6"

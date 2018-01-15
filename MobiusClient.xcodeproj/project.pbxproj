@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		41190A6C200CB51100F3B2A9 /* DataFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41190A6B200CB51100F3B2A9 /* DataFeed.swift */; };
 		4142ADA32008D1D10080A783 /* MobiusClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4142ADA12008D1D10080A783 /* MobiusClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4142ADC32008F29A0080A783 /* MobiusAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4142ADB12008F2520080A783 /* MobiusAPIClient.swift */; };
 		4142ADC42008F2A30080A783 /* HTTPParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4142ADB32008F2520080A783 /* HTTPParameter.swift */; };
@@ -29,13 +30,14 @@
 		4142ADC72008F2A90080A783 /* URLQueryEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4142ADB62008F2520080A783 /* URLQueryEncoder.swift */; };
 		4142ADCB2008F2B30080A783 /* MobiusError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4142ADBB2008F2520080A783 /* MobiusError.swift */; };
 		4142ADCD2008F2B70080A783 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4142ADBD2008F2520080A783 /* APIRequest.swift */; };
-		4142ADD02008F2BD0080A783 /* GetBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4142ADC12008F2520080A783 /* GetBalance.swift */; };
-		4142ADD12008F2BF0080A783 /* UseCredits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4142ADC22008F2520080A783 /* UseCredits.swift */; };
+		4142ADD02008F2BD0080A783 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4142ADC12008F2520080A783 /* Balance.swift */; };
+		4142ADD12008F2BF0080A783 /* Use.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4142ADC22008F2520080A783 /* Use.swift */; };
 		FADBF99C2009337200AAB1F3 /* MobiusBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBF99B2009337200AAB1F3 /* MobiusBalance.swift */; };
 		FADBF99E2009338200AAB1F3 /* MobiusDataFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBF99D2009338200AAB1F3 /* MobiusDataFeed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41190A6B200CB51100F3B2A9 /* DataFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFeed.swift; sourceTree = "<group>"; };
 		4142AD9E2008D1D10080A783 /* MobiusClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobiusClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4142ADA12008D1D10080A783 /* MobiusClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobiusClient.h; sourceTree = "<group>"; };
 		4142ADA22008D1D10080A783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,8 +48,8 @@
 		4142ADB62008F2520080A783 /* URLQueryEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLQueryEncoder.swift; sourceTree = "<group>"; };
 		4142ADBB2008F2520080A783 /* MobiusError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusError.swift; sourceTree = "<group>"; };
 		4142ADBD2008F2520080A783 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
-		4142ADC12008F2520080A783 /* GetBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBalance.swift; sourceTree = "<group>"; };
-		4142ADC22008F2520080A783 /* UseCredits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCredits.swift; sourceTree = "<group>"; };
+		4142ADC12008F2520080A783 /* Balance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		4142ADC22008F2520080A783 /* Use.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Use.swift; sourceTree = "<group>"; };
 		FADBF99B2009337200AAB1F3 /* MobiusBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusBalance.swift; sourceTree = "<group>"; };
 		FADBF99D2009338200AAB1F3 /* MobiusDataFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusDataFeed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,8 +127,9 @@
 		4142ADBF2008F2520080A783 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
-				4142ADC12008F2520080A783 /* GetBalance.swift */,
-				4142ADC22008F2520080A783 /* UseCredits.swift */,
+				4142ADC12008F2520080A783 /* Balance.swift */,
+				4142ADC22008F2520080A783 /* Use.swift */,
+				41190A6B200CB51100F3B2A9 /* DataFeed.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -235,12 +238,13 @@
 				4142ADC42008F2A30080A783 /* HTTPParameter.swift in Sources */,
 				FADBF99C2009337200AAB1F3 /* MobiusBalance.swift in Sources */,
 				4142ADC72008F2A90080A783 /* URLQueryEncoder.swift in Sources */,
-				4142ADD12008F2BF0080A783 /* UseCredits.swift in Sources */,
+				41190A6C200CB51100F3B2A9 /* DataFeed.swift in Sources */,
+				4142ADD12008F2BF0080A783 /* Use.swift in Sources */,
 				4142ADC32008F29A0080A783 /* MobiusAPIClient.swift in Sources */,
 				4142ADC52008F2A40080A783 /* Result.swift in Sources */,
 				4142ADCB2008F2B30080A783 /* MobiusError.swift in Sources */,
 				FADBF99E2009338200AAB1F3 /* MobiusDataFeed.swift in Sources */,
-				4142ADD02008F2BD0080A783 /* GetBalance.swift in Sources */,
+				4142ADD02008F2BD0080A783 /* Balance.swift in Sources */,
 				4142ADC62008F2A70080A783 /* md5.swift in Sources */,
 				4142ADCD2008F2B70080A783 /* APIRequest.swift in Sources */,
 			);
