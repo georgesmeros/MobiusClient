@@ -58,7 +58,7 @@ public class MobiusAPIClient {
     ///   - data_feed_uid: The UID of the Data Feed
     ///   - address: Ethereum Contract Address that will receive data
     ///   - completion: Data feed
-    public func buyDataFeed(data_feed_uid: String? = nil, address: String? = nil, _ completion: @escaping (_ balance: MobiusDataFeed?,_ errorMessage: String?,_ statusCode: Int?) -> Void) {
+    public func buyDataFeed(_ data_feed_uid: String? = nil,_ address: String? = nil, _ completion: @escaping (_ balance: MobiusDataFeed?,_ errorMessage: String?,_ statusCode: Int?) -> Void) {
         
         let request = BuyDataFeed.init(data_feed_uid: data_feed_uid, address: address)
         let endpoint = self.endpoint(for: request)
