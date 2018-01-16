@@ -24,7 +24,7 @@ public class MobiusAPIClient {
     ///   - app_uid: The UID of the app. Get it at https://mobius.network/store/developer
     ///   - email: The email of the user whose balance you want to query.
     ///   - completion: balance
-    public func getBalance(_ app_uid: String? = nil,_ email: String? = nil, _ completion: @escaping (_ balance: MobiusBalance?,_ errorMessage: String?,_ statusCode: Int?) -> Void) {
+    public func getBalance(app_uid: String? = nil, email: String? = nil, _ completion: @escaping (_ balance: MobiusBalance?,_ errorMessage: String?,_ statusCode: Int?) -> Void) {
         let request = GetBalance.init(email: email, app_uid: app_uid)
         let endpoint = self.endpoint(for: request)
         let urlRequest = URLRequest(url: endpoint)
@@ -58,7 +58,7 @@ public class MobiusAPIClient {
     ///   - data_feed_uid: The UID of the Data Feed
     ///   - address: Ethereum Contract Address that will receive data
     ///   - completion: Data feed
-    public func buyDataFeed(_ data_feed_uid: String? = nil,_ address: String? = nil, _ completion: @escaping (_ balance: MobiusDataFeed?,_ errorMessage: String?,_ statusCode: Int?) -> Void) {
+    public func buyDataFeed(data_feed_uid: String? = nil, address: String? = nil, _ completion: @escaping (_ balance: MobiusDataFeed?,_ errorMessage: String?,_ statusCode: Int?) -> Void) {
         
         let request = BuyDataFeed.init(data_feed_uid: data_feed_uid, address: address)
         let endpoint = self.endpoint(for: request)
@@ -96,7 +96,7 @@ public class MobiusAPIClient {
     /// - Parameters:
     ///   - data_feed_uid: The UID of the Data Feed
     ///   - completion: Data Feed
-    public func getDataFeed(_ data_feed_uid: String? = nil, _ completion: @escaping (_ dataFeed: MobiusDataFeed?,_ errorMessage: String?,_ statusCode: Int?) -> Void) {
+    public func getDataFeed(data_feed_uid: String? = nil, _ completion: @escaping (_ dataFeed: MobiusDataFeed?,_ errorMessage: String?,_ statusCode: Int?) -> Void) {
         let request = GetDataFeed.init(data_feed_uid: data_feed_uid)
         let endpoint = self.endpoint(for: request)
         let urlRequest = URLRequest(url: endpoint)
@@ -134,7 +134,7 @@ public class MobiusAPIClient {
     ///   - data_feed_uid: The UID of the Data Feed
     ///   - values: JSON object representing the DataPoint
     ///   - completion: Data Feed
-    public func createDataPoint(_ data_feed_uid: String? = nil,_ values: [String: Any]? = nil, _ completion: @escaping (_ dataFeed: MobiusDataFeed?,_ errorMessage: String?,_ statusCode: Int?) -> Void) {
+    public func createDataPoint(data_feed_uid: String? = nil,values: [String: Any]? = nil, _ completion: @escaping (_ dataFeed: MobiusDataFeed?,_ errorMessage: String?,_ statusCode: Int?) -> Void) {
         let request = CreateDataPoint.init(data_feed_uid: data_feed_uid)
         let endpoint = self.endpoint(for: request, values: values)
         var urlRequest = URLRequest(url: endpoint)
