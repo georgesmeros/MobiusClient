@@ -16,6 +16,7 @@ struct GetDataFeed: APIRequest {
     }
     
     // Parameters
+    /// The UID of the Data Feed
     public let data_feed_uid: String?
     
     public init(data_feed_uid: String? = nil) {
@@ -31,6 +32,7 @@ struct CreateDataPoint: APIRequest {
     }
     
     // Parameters
+    /// The UID of the Data Feed
     public let data_feed_uid: String?
     
     public init(data_feed_uid: String? = nil) {
@@ -46,7 +48,9 @@ struct BuyDataFeed: APIRequest {
     }
     
     // Parameters
+    /// The UID of the Data Feed
     public let data_feed_uid: String?
+    /// Ethereum Contract Address that will receive data
     public let address: String?
     
     public init(data_feed_uid: String? = nil, address: String? = nil) {

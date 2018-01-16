@@ -9,6 +9,8 @@
 import Foundation
 
 public class MobiusBalance: Decodable {
+    
+    /// number of credits user has after the use
     public var credits: Double?
 }
 

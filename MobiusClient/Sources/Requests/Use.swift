@@ -17,8 +17,11 @@ public struct UseCredits: APIRequest {
     }
     
     // Parameters
+    /// The UID of the app. Get it at https://mobius.network/store/developer
     private let app_uid: String?
+    /// The email of the user whose credits you want to use.
     private let email: String?
+    /// The number of credits to use.
     private let num_credits: Double?
     
     public init(app_uid: String? = nil, email: String? = nil, num_credits: Double? = nil) {

@@ -34,6 +34,8 @@
 		4142ADD12008F2BF0080A783 /* Use.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4142ADC22008F2520080A783 /* Use.swift */; };
 		41FC1CB2200D0237009896CB /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC1CB1200D0237009896CB /* Token.swift */; };
 		41FC1CB4200D0259009896CB /* MobiusToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC1CB3200D0259009896CB /* MobiusToken.swift */; };
+		41FC1CB6200E3925009896CB /* MobiusAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC1CB5200E3925009896CB /* MobiusAddress.swift */; };
+		41FC1CB8200E3AFE009896CB /* MobiusTransferInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC1CB7200E3AFE009896CB /* MobiusTransferInfo.swift */; };
 		FADBF99C2009337200AAB1F3 /* MobiusBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBF99B2009337200AAB1F3 /* MobiusBalance.swift */; };
 		FADBF99E2009338200AAB1F3 /* MobiusDataFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBF99D2009338200AAB1F3 /* MobiusDataFeed.swift */; };
 /* End PBXBuildFile section */
@@ -54,6 +56,8 @@
 		4142ADC22008F2520080A783 /* Use.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Use.swift; sourceTree = "<group>"; };
 		41FC1CB1200D0237009896CB /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		41FC1CB3200D0259009896CB /* MobiusToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusToken.swift; sourceTree = "<group>"; };
+		41FC1CB5200E3925009896CB /* MobiusAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusAddress.swift; sourceTree = "<group>"; };
+		41FC1CB7200E3AFE009896CB /* MobiusTransferInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusTransferInfo.swift; sourceTree = "<group>"; };
 		FADBF99B2009337200AAB1F3 /* MobiusBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusBalance.swift; sourceTree = "<group>"; };
 		FADBF99D2009338200AAB1F3 /* MobiusDataFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusDataFeed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +129,8 @@
 				FADBF99B2009337200AAB1F3 /* MobiusBalance.swift */,
 				FADBF99D2009338200AAB1F3 /* MobiusDataFeed.swift */,
 				41FC1CB3200D0259009896CB /* MobiusToken.swift */,
+				41FC1CB5200E3925009896CB /* MobiusAddress.swift */,
+				41FC1CB7200E3AFE009896CB /* MobiusTransferInfo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -244,9 +250,11 @@
 				4142ADC42008F2A30080A783 /* HTTPParameter.swift in Sources */,
 				FADBF99C2009337200AAB1F3 /* MobiusBalance.swift in Sources */,
 				4142ADC72008F2A90080A783 /* URLQueryEncoder.swift in Sources */,
+				41FC1CB8200E3AFE009896CB /* MobiusTransferInfo.swift in Sources */,
 				41190A6C200CB51100F3B2A9 /* DataFeed.swift in Sources */,
 				4142ADD12008F2BF0080A783 /* Use.swift in Sources */,
 				4142ADC32008F29A0080A783 /* MobiusAPIClient.swift in Sources */,
+				41FC1CB6200E3925009896CB /* MobiusAddress.swift in Sources */,
 				4142ADC52008F2A40080A783 /* Result.swift in Sources */,
 				4142ADCB2008F2B30080A783 /* MobiusError.swift in Sources */,
 				FADBF99E2009338200AAB1F3 /* MobiusDataFeed.swift in Sources */,

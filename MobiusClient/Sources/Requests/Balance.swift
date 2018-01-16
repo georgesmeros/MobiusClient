@@ -16,7 +16,9 @@ struct GetBalance: APIRequest {
     }
     
     // Parameters
+    /// The email of the user whose balance you want to query.
     public let email: String?
+    /// The UID of the app. Get it at https://mobius.network/store/developer
     public let app_uid: String?
     
     public init(email: String? = nil,
