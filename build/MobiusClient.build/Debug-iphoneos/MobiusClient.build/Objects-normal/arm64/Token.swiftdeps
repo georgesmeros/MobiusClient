@@ -1,0 +1,330 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TokenType"
+- "RegisterToken"
+- "CreateAddress"
+- "RegisterAddress"
+- "GetAddressBalance"
+- "CreateTransfer"
+- "GetTransferInfo"
+provides-nominal:
+- "12MobiusClient9TokenTypeO"
+- "12MobiusClient13RegisterTokenV"
+- "12MobiusClient13CreateAddressV"
+- "12MobiusClient15RegisterAddressV"
+- "12MobiusClient17GetAddressBalanceV"
+- "12MobiusClient14CreateTransferV"
+- "12MobiusClient15GetTransferInfoV"
+provides-member:
+- ["12MobiusClient9TokenTypeO", ""]
+- ["12MobiusClient13RegisterTokenV", ""]
+- ["12MobiusClient13CreateAddressV", ""]
+- ["12MobiusClient15RegisterAddressV", ""]
+- ["12MobiusClient17GetAddressBalanceV", ""]
+- ["12MobiusClient14CreateTransferV", ""]
+- ["12MobiusClient15GetTransferInfoV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "APIRequest"
+- "AssignmentPrecedence"
+- "CreateAddress"
+- "CreateTransfer"
+- "Double"
+- "GetAddressBalance"
+- "GetTransferInfo"
+- "MobiusAddress"
+- "MobiusToken"
+- "MobiusTransferInfo"
+- "RegisterAddress"
+- "RegisterToken"
+- "String"
+- "StringLiteralType"
+- "TokenType"
+- !private "~="
+depends-member:
+- !private ["12MobiusClient10APIRequestP", "address"]
+- !private ["12MobiusClient10APIRequestP", "address_to"]
+- ["12MobiusClient10APIRequestP", "encode"]
+- !private ["12MobiusClient10APIRequestP", "issuer"]
+- !private ["12MobiusClient10APIRequestP", "name"]
+- !private ["12MobiusClient10APIRequestP", "num_tokens"]
+- ["12MobiusClient10APIRequestP", "resourceName"]
+- !private ["12MobiusClient10APIRequestP", "symbol"]
+- !private ["12MobiusClient10APIRequestP", "token_address_transfer_uid"]
+- !private ["12MobiusClient10APIRequestP", "token_address_uid"]
+- !private ["12MobiusClient10APIRequestP", "token_type"]
+- !private ["12MobiusClient10APIRequestP", "token_uid"]
+- ["12MobiusClient10APIRequestP", ""]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s9CodingKeyP", "hashValue"]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", ""]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- !private ["12MobiusClient13CreateAddressV", "CodingKeys"]
+- ["12MobiusClient13CreateAddressV", "Response"]
+- ["12MobiusClient13CreateAddressV", "String"]
+- ["12MobiusClient13CreateAddressV", "deinit"]
+- ["12MobiusClient13CreateAddressV", "encode"]
+- ["12MobiusClient13CreateAddressV", "init"]
+- ["12MobiusClient13CreateAddressV", "resourceName"]
+- ["12MobiusClient13CreateAddressV", "token_uid"]
+- !private ["12MobiusClient14CreateTransferV", "CodingKeys"]
+- ["12MobiusClient14CreateTransferV", "Double"]
+- ["12MobiusClient14CreateTransferV", "Response"]
+- ["12MobiusClient14CreateTransferV", "String"]
+- ["12MobiusClient14CreateTransferV", "address_to"]
+- ["12MobiusClient14CreateTransferV", "deinit"]
+- ["12MobiusClient14CreateTransferV", "encode"]
+- ["12MobiusClient14CreateTransferV", "init"]
+- ["12MobiusClient14CreateTransferV", "num_tokens"]
+- ["12MobiusClient14CreateTransferV", "resourceName"]
+- ["12MobiusClient14CreateTransferV", "token_address_uid"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "address"]
+- !private ["s9EncodableP", "address_to"]
+- ["s9EncodableP", "encode"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "issuer"]
+- !private ["s9EncodableP", "name"]
+- !private ["s9EncodableP", "num_tokens"]
+- ["s9EncodableP", "resourceName"]
+- !private ["s9EncodableP", "symbol"]
+- !private ["s9EncodableP", "token_address_transfer_uid"]
+- !private ["s9EncodableP", "token_address_uid"]
+- !private ["s9EncodableP", "token_type"]
+- !private ["s9EncodableP", "token_uid"]
+- ["s9EncodableP", ""]
+- !private ["s7EncoderP", "container"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "intValue"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "stringValue"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["12MobiusClient17GetAddressBalanceV", "CodingKeys"]
+- ["12MobiusClient17GetAddressBalanceV", "MobiusAddress"]
+- ["12MobiusClient17GetAddressBalanceV", "Response"]
+- ["12MobiusClient17GetAddressBalanceV", "String"]
+- ["12MobiusClient17GetAddressBalanceV", "address"]
+- ["12MobiusClient17GetAddressBalanceV", "deinit"]
+- ["12MobiusClient17GetAddressBalanceV", "encode"]
+- ["12MobiusClient17GetAddressBalanceV", "init"]
+- ["12MobiusClient17GetAddressBalanceV", "resourceName"]
+- ["12MobiusClient17GetAddressBalanceV", "token_uid"]
+- !private ["12MobiusClient15GetTransferInfoV", "CodingKeys"]
+- ["12MobiusClient15GetTransferInfoV", "MobiusTransferInfo"]
+- ["12MobiusClient15GetTransferInfoV", "Response"]
+- ["12MobiusClient15GetTransferInfoV", "String"]
+- ["12MobiusClient15GetTransferInfoV", "deinit"]
+- ["12MobiusClient15GetTransferInfoV", "encode"]
+- ["12MobiusClient15GetTransferInfoV", "init"]
+- ["12MobiusClient15GetTransferInfoV", "resourceName"]
+- ["12MobiusClient15GetTransferInfoV", "token_address_transfer_uid"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "intValue"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "stringValue"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", ""]
+- !private ["12MobiusClient15RegisterAddressV", "CodingKeys"]
+- ["12MobiusClient15RegisterAddressV", "Response"]
+- ["12MobiusClient15RegisterAddressV", "String"]
+- ["12MobiusClient15RegisterAddressV", "address"]
+- ["12MobiusClient15RegisterAddressV", "deinit"]
+- ["12MobiusClient15RegisterAddressV", "encode"]
+- ["12MobiusClient15RegisterAddressV", "init"]
+- ["12MobiusClient15RegisterAddressV", "resourceName"]
+- ["12MobiusClient15RegisterAddressV", "token_uid"]
+- !private ["12MobiusClient13RegisterTokenV", "CodingKeys"]
+- ["12MobiusClient13RegisterTokenV", "MobiusToken"]
+- ["12MobiusClient13RegisterTokenV", "Response"]
+- ["12MobiusClient13RegisterTokenV", "String"]
+- ["12MobiusClient13RegisterTokenV", "TokenType"]
+- ["12MobiusClient13RegisterTokenV", "deinit"]
+- ["12MobiusClient13RegisterTokenV", "encode"]
+- ["12MobiusClient13RegisterTokenV", "init"]
+- ["12MobiusClient13RegisterTokenV", "issuer"]
+- ["12MobiusClient13RegisterTokenV", "name"]
+- ["12MobiusClient13RegisterTokenV", "resourceName"]
+- ["12MobiusClient13RegisterTokenV", "symbol"]
+- ["12MobiusClient13RegisterTokenV", "token_type"]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["12MobiusClient9TokenTypeO", "RawValue"]
+- ["12MobiusClient9TokenTypeO", "deinit"]
+- ["12MobiusClient9TokenTypeO", "erc20"]
+- ["12MobiusClient9TokenTypeO", "hashValue"]
+- ["12MobiusClient9TokenTypeO", "init"]
+- ["12MobiusClient9TokenTypeO", "rawValue"]
+- ["12MobiusClient9TokenTypeO", "stellar"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "12MobiusClient10APIRequestP"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s9CodingKeyP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "12MobiusClient13CreateAddressV"
+- "12MobiusClient14CreateTransferV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- !private "s7EncoderP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "12MobiusClient17GetAddressBalanceV"
+- "12MobiusClient15GetTransferInfoV"
+- "s8HashableP"
+- !private "Si"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "12MobiusClient15RegisterAddressV"
+- "12MobiusClient13RegisterTokenV"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "12MobiusClient9TokenTypeO"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/hare/Mobius/MobiusClient/MobiusClient.h"
+- "/Users/hare/Mobius/build/MobiusClient.build/Debug-iphoneos/MobiusClient.build/unextended-module.modulemap"
+interface-hash: "94844babfcb013d52f0ddc46a8ad4564"

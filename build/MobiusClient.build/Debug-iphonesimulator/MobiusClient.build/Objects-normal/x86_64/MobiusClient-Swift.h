@@ -192,5 +192,13 @@ SWIFT_CLASS("_TtC12MobiusClient14MobiusDataFeed")
 
 
 
+
+SWIFT_CLASS("_TtC12MobiusClient18MobiusTransferInfo")
+@interface MobiusTransferInfo : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
 SWIFT_MODULE_NAMESPACE_POP
 #pragma clang diagnostic pop

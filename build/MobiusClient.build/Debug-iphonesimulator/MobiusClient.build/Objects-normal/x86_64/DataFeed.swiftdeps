@@ -1,21 +1,30 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "GetDataFeed"
+- "CreateDataPoint"
+- "BuyDataFeed"
 provides-nominal:
 - "12MobiusClient11GetDataFeedV"
+- "12MobiusClient15CreateDataPointV"
+- "12MobiusClient11BuyDataFeedV"
 provides-member:
 - ["12MobiusClient11GetDataFeedV", ""]
+- ["12MobiusClient15CreateDataPointV", ""]
+- ["12MobiusClient11BuyDataFeedV", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "=="
 - "APIRequest"
 - "AssignmentPrecedence"
+- "BuyDataFeed"
+- "CreateDataPoint"
 - "GetDataFeed"
 - "MobiusDataFeed"
 - "String"
 - !private "StringLiteralType"
 - !private "~="
 depends-member:
+- !private ["12MobiusClient10APIRequestP", "address"]
 - !private ["12MobiusClient10APIRequestP", "data_feed_uid"]
 - ["12MobiusClient10APIRequestP", "encode"]
 - ["12MobiusClient10APIRequestP", "resourceName"]
@@ -23,6 +32,16 @@ depends-member:
 - !private ["s23BidirectionalCollectionP", "init"]
 - !private ["s13BinaryIntegerP", "hashValue"]
 - !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["12MobiusClient11BuyDataFeedV", "CodingKeys"]
+- ["12MobiusClient11BuyDataFeedV", "MobiusDataFeed"]
+- ["12MobiusClient11BuyDataFeedV", "Response"]
+- ["12MobiusClient11BuyDataFeedV", "String"]
+- ["12MobiusClient11BuyDataFeedV", "address"]
+- ["12MobiusClient11BuyDataFeedV", "data_feed_uid"]
+- ["12MobiusClient11BuyDataFeedV", "deinit"]
+- ["12MobiusClient11BuyDataFeedV", "encode"]
+- ["12MobiusClient11BuyDataFeedV", "init"]
+- ["12MobiusClient11BuyDataFeedV", "resourceName"]
 - !private ["s7CVarArgP", "hashValue"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s9CodingKeyP", "hashValue"]
@@ -33,6 +52,15 @@ depends-member:
 - !private ["s10CollectionP", "init"]
 - !private ["s10ComparableP", "hashValue"]
 - !private ["s10ComparableP", "init"]
+- !private ["12MobiusClient15CreateDataPointV", "CodingKeys"]
+- ["12MobiusClient15CreateDataPointV", "MobiusDataFeed"]
+- ["12MobiusClient15CreateDataPointV", "Response"]
+- ["12MobiusClient15CreateDataPointV", "String"]
+- ["12MobiusClient15CreateDataPointV", "data_feed_uid"]
+- ["12MobiusClient15CreateDataPointV", "deinit"]
+- ["12MobiusClient15CreateDataPointV", "encode"]
+- ["12MobiusClient15CreateDataPointV", "init"]
+- ["12MobiusClient15CreateDataPointV", "resourceName"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
@@ -47,6 +75,7 @@ depends-member:
 - !private ["s9DecodableP", "hashValue"]
 - !private ["s9DecodableP", "init"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "address"]
 - !private ["s9EncodableP", "data_feed_uid"]
 - ["s9EncodableP", "encode"]
 - !private ["s9EncodableP", "hashValue"]
@@ -131,10 +160,12 @@ depends-nominal:
 - !private "s23BidirectionalCollectionP"
 - !private "s13BinaryIntegerP"
 - !private "Sb"
+- "12MobiusClient11BuyDataFeedV"
 - !private "s7CVarArgP"
 - !private "s9CodingKeyP"
 - !private "s10CollectionP"
 - !private "s10ComparableP"
+- "12MobiusClient15CreateDataPointV"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
@@ -208,4 +239,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/hare/Mobius/MobiusClient/MobiusClient.h"
 - "/Users/hare/Mobius/build/MobiusClient.build/Debug-iphonesimulator/MobiusClient.build/unextended-module.modulemap"
-interface-hash: "7aecc1d1ed871e2ed53f1292235988f3"
+interface-hash: "8db299842c3d6331d5fc4034f5a2e60a"
