@@ -24,7 +24,7 @@ mobiusClient.getBalance { (balance, error, code) in
      }
 }
 
-mobiusClient.getBalance(app_uid, email) { (balance, error, code) in
+mobiusClient.getBalance(app_uid: app_uid,email: email) { (balance, error, code) in
 }
 
 // Use
@@ -48,7 +48,7 @@ mobiusClient.buyDataFeed(data_feed_uid: "dataFeedUID", address: "address") { (da
     }
 }
         
-mobiusClient.getDataFeed("dataFeedUID") { (dataFeed, error, code) in
+mobiusClient.getDataFeed(data_feed_uid: "dataFeedUID") { (dataFeed, error, code) in
      if let error = error {
          //Response with error message
          print(error)
@@ -57,7 +57,7 @@ mobiusClient.getDataFeed("dataFeedUID") { (dataFeed, error, code) in
      }
 }
         
-mobiusClient.createDataPoint("dataFeedUID", ["temperature":"90"]) { (dataFeed, error, code) in
+mobiusClient.createDataPoint(data_feed_uid: "dataFeedUID", values: ["temperature":"90"]) { (dataFeed, error, code) in
      if let error = error {
          //Response with error message
          print(error)
