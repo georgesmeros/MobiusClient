@@ -1,5 +1,7 @@
 # MobiusClient
 Swift API Client for Mobius Network
+Client tutorial :
+https://medium.com/@georgesmeros/mobius-api-get-balance-using-swift-d3d694fc8d1f
 
 ## Installation
 
